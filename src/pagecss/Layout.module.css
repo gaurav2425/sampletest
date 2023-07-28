@@ -1,0 +1,37 @@
+.sidebar{
+    width: 200px;
+    background-color: black;
+    height: 100vh;
+}
+.layout_container{
+    display: flex;
+    flex-direction: column;
+}
+.navbar_container{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_container h1{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+.sidebar_container{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar ul li{
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
